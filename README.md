@@ -9,6 +9,8 @@ Customers will need to provide 3 variables in order to utilize the toolkit:
 - API Key
 - Network name of the concentrator performing EBGP
 
+The netaddr library is used to summarize the list of prefixes obtained from the Meraki API. More information on the netaddr library can be found here: https://netaddr.readthedocs.io/en/latest/tutorial_01.html#summarizing-list-of-addresses-and-subnets
+
 A reference architecture can be seen below:
 
 [Cisco Meraki BGP Summarization Architectue](https://app.lucidchart.com/documents/view/4ba9e8e6-7b73-4d8f-b936-1c6a073ccec1)
